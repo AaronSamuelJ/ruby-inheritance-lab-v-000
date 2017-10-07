@@ -1,4 +1,4 @@
 class Teacher
 
 
-end 
+end
