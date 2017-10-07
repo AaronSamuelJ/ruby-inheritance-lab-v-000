@@ -1,3 +1,5 @@
 class Teacher < User
-  attr_accessor :teach
+  def teach
+    self.sample
+  end
 end
