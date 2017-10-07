@@ -8,7 +8,7 @@ steve = Student.new
 steve.first_name = "Steve"
 steve.last_name = "Jobs"
 
-jim = User.new 
+jim = Student.new
 jim.first_name = "Jim"
 jim.last_name = "Rambo"
 
@@ -30,5 +30,5 @@ jim.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-puts "jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
-puts "jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
+puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
+puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
